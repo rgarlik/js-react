@@ -12,15 +12,15 @@ import imageSuciastka from './suciastka.jpg';
 function App() {
   return (
     <div className="App">
-      {/* <GreenHello name="Richard" surname="Garlik" age={15} />
+      <GreenHello name="Richard" surname="Garlik" age={15} />
       <GreenHello name="Filip" age={20} />
-      <Menu /> */}
+      <Menu />
       <ShoppingList />
-      {/* <Counter />
+      <Counter />
       <Product name="Piano" description="Yamaha keyboard 220" sale="true" saleValue="50%"/>
       <Product name="Husle" description="Uzasne mega husle z roku 1776" sale="true" saleValue="25%" />
       <Product name="Bicie" description="Super bicie" />
-      <img src={imageSuciastka} /> */}
+      <img src={imageSuciastka} />
     </div>
   );
 }
