@@ -11,8 +11,8 @@ import imageSuciastka from './suciastka.jpg';
 function App() {
   return (
     <div className="App">
-      <GreenHello name="Richard" />
-      <GreenHello name="Filip" />
+      <GreenHello name="Richard" surname="Garlik" age={15} />
+      <GreenHello name="Filip" age={20} />
       <Menu />
       <Counter />
       <Product name="Piano" description="Yamaha keyboard 220" sale="true" saleValue="50%"/>
