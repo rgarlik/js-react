@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Menu from './components/Menu.js';
+import Product from './components/Product.js';
+import Counter from './components/Counter.js';
+
+// obrazok
+import imageSuciastka from './suciastka.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menu />
+      <Counter />
+      <Product name="Piano" description="Yamaha keyboard 220" sale="true" saleValue="50%"/>
+      <Product name="Husle" description="Uzasne mega husle z roku 1776" sale="true" saleValue="25%" />
+      <Product name="Bicie" description="Super bicie" />
+      <img src={imageSuciastka} />
     </div>
   );
 }
