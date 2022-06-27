@@ -3,6 +3,7 @@ import './App.css';
 import Menu from './components/Menu.js';
 import Product from './components/Product.js';
 import Counter from './components/Counter.js';
+import GreenHello from './components/GreenHello';
 
 // obrazok
 import imageSuciastka from './suciastka.jpg';
@@ -10,6 +11,8 @@ import imageSuciastka from './suciastka.jpg';
 function App() {
   return (
     <div className="App">
+      <GreenHello name="Richard" />
+      <GreenHello name="Filip" />
       <Menu />
       <Counter />
       <Product name="Piano" description="Yamaha keyboard 220" sale="true" saleValue="50%"/>
